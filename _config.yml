@@ -1,2 +1,12 @@
 pretzel: 
     engine: liquid
+    
+exclude:
+  - publish.ps1
+  - build.cake
+  - build.ps1
+  - tools\
+  - .vscode\
+  - .git\
+  - .gitignore
+  - add-tag.cmd
